@@ -1,11 +1,14 @@
 const express = require('express')
+const cors = require ('cors')
 const app = express()
-const port = 3000
+const port = 3001
 
-app.get('/', (req, res) => {
+app.use(cors())
+
+app.get('/hi', (req, res) => {
 
     res.send("hello")
-
+    console.log(res);
 })
 
 
