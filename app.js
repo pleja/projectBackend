@@ -10,12 +10,12 @@ app.get('/hi', (req, res) => {
     //console.log()
     axios({
         method: 'get',
-        url: 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+        url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
         params: {
             'convert': "USD"
         },
         headers: {
-            'X-CMC_PRO_API_KEY': '1277fdcd-7db4-4d4b-baa1-5cafe999d92f',
+            'X-CMC_PRO_API_KEY': 'PASTE YOUR KEY HERE!', // PASTE API KEY AFTER THE COLON , make sure API KEY is in quotes
             'cache-control': 'no-cache'
         },
         responseType: 'json'
