@@ -1,6 +1,6 @@
 ## Top 100 Crypto Updates from Coin Market Cap - Express Back-End
 
-This back-end obtains coin market cap API data via axios. It then serves the data to the React-Front (https://github.com/pleja/projectFrontend) which displays it based on a search query.
+This back-end obtains coin market cap API data via axios. It then serves the data to the React-Front which displays it based on a search query.
 
 ## Dependancies / Requirements
 
